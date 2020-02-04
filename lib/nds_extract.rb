@@ -3,6 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
  pp nds
+ result = {}
   director_index = 0 
     totals ={}
   while director_index < nds.length do 
